@@ -1,6 +1,14 @@
 .gradle
 .idea
 build/
+/gradle/wrapper/
+gradlew
+gradlew.bat
+
+# 빌드 파일 무시
+/build/
+*.gradle.kts
+
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
