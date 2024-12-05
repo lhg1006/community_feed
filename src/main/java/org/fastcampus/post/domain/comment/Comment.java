@@ -53,4 +53,8 @@ public class Comment {
 
         this.content.updateContent(updateContent);
     }
+
+    public int getLikeCount() {
+        return likeCount.getCount();
+    }
 }
